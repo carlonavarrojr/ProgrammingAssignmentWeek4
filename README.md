@@ -13,17 +13,17 @@ Instructions are to create one R script called run_analysis.R that does the foll
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#FILES (needs the test, train and .txt files from the Samsung repository.
-
-* test folder - taken from the Samsung repository
-* train folder - taken from the Samsung repository
-* activity_labels.txt - taken from the Samsung repository
-* features.txt - taken from the Samsung repository
-* features_info.txt - taken from the Samsung repository
-* README.txt - taken from the Samsung repository. Describes all of the files for the data in the Samsung Galaxy S smartphone repository.
-* README.md - Readme for the submission for the Week 4 Peer Graded Assignment
-* run_analysis.R - script which modifies the Samsung Galaxy S data to clean and process the data as per DESCRIPTION above. Should be in the "UCI HAR Dataset" folder
-* Week4PeerGradedAssignOutput.txt - Output of step 5, in the DESCRIPTION above.
+#FILES 
+* (needs the test, train and .txt files from the Samsung repository.
+  * test folder - taken from the Samsung repository
+  * train folder - taken from the Samsung repository
+  * activity_labels.txt - taken from the Samsung repository
+  * features.txt - taken from the Samsung repository
+  * features_info.txt - taken from the Samsung repository
+  * README.txt - taken from the Samsung repository. Describes all of the files for the data in the Samsung Galaxy S smartphone repository.
+  * README.md - Readme for the submission for the Week 4 Peer Graded Assignment
+  * run_analysis.R - script which modifies the Samsung Galaxy S data to clean and process the data as per DESCRIPTION above. Should be in the "UCI HAR Dataset" folder
+  * Week4PeerGradedAssignOutput.txt - Output of step 5, in the DESCRIPTION above.
 
 #PROCESS / VARIABLES
 
