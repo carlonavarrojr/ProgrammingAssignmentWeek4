@@ -48,7 +48,8 @@ relevant_data <- y_x[,i+1]
 
 #Uses descriptive activity names to name the activities in the data set
 relevant_data <- merge(relevant_data,activities)
+relevant_data <- relevant_data[,-which(names(relevant_data) == "Activity.Code")]
 
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-relevant_data_ave <- relevant_data %>% group_by(subject,Activity.Code,Activity.Label) %>% summarise_each (funs(mean))
+relevant_data_ave <- relevant_data %>% group_by(subject,Activity.Label) %>% summarise_each (funs(mean))
 write.table(relevant_data_ave,"Week4PeerGradedAssignOutput.txt", sep = "\t", row.name = FALSE)
