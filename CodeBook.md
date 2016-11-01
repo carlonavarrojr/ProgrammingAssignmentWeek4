@@ -1,5 +1,5 @@
 # PROCESS / VARIABLES
-run_analysis.R does the following to perform the Description above:
+run_analysis.R does the following:
 
 1. Reads features.txt and activities.txt into R and modifies the names of the variables to be descriptive.
 
@@ -28,5 +28,5 @@ Note: Details on the data set are contained in the README.txt, activity_labels.t
 * features_info.txt - taken from the Samsung repository
 * README.txt - taken from the Samsung repository. Describes all of the files for the data in the Samsung Galaxy S smartphone repository.
 * README.md - Readme for the submission for the Week 4 Peer Graded Assignment
-* run_analysis.R - script which modifies the Samsung Galaxy S data to clean and process the data as per DESCRIPTION above.
-* Week4PeerGradedAssignOutput.txt - Output of step 5, in the DESCRIPTION above.
+* run_analysis.R - script which modifies the Samsung Galaxy S data to clean and process the data.
+* Week4PeerGradedAssignOutput.txt - Output of run_analysis.R.
