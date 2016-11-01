@@ -11,5 +11,12 @@ Instructions are to create one R script called run_analysis.R that does the foll
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# OUTPUT
-* Week4PeerGradedAssignOutput.txt - the data table of the average of the mean and std variables per subject per activity cleaned and analyzed from the Samsung Galaxy Repository.
+# PROCESS / VARIABLES
+run_analysis.R does the following:
+
+1. Reads features.txt and activities.txt into R and modifies the names of the variables to be descriptive.
+2. Reads the subject.txt, x.txt, and y.txt from the train and test data and consolidates them into one variable y_x
+3. Takes a subset of y_x and stores it into relevant_data for step 2.
+4. Makes a separate data frame relevant_data_ave which takes the average of the data per subject and activity.
+5. Outputs relevant_data_ave into a file Week4PeerGradedAssignOutput.txt
+
